@@ -1,1 +1,4 @@
- 
+package android.hardware.simple@2.0;
+interface ISimphw {
+    simpfn(int32_t valueIn) generates (int32_t valueRet);
+};
